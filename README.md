@@ -4,6 +4,6 @@
 
 `yarn install`
 
-## Run 
+## Run
 
-`yarn start`
+`yarn watch`
