@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 
-app.get('/movies', async (req, res) => {
+app.get('/movies', (req, res) => {
   const movies = {};
   res.json(movies);
 });
